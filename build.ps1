@@ -1,5 +1,5 @@
 ################################################################################
-# Windows update and drivers / Remove unnecessary apps
+# Windows update and drivers / Remove unnecessary apps / Dark theme
 ################################################################################
 
 
@@ -10,6 +10,7 @@
 # https://github.com/microsoft/winget-cli/releases
 
 # USING POWERSHELL:
+
 
 ################################################################################
 # Apps
@@ -35,6 +36,7 @@ winget install PostgreSQL.pgAdmin-x64
 winget install Microsoft.SQLServerManagementStudio
 winget install IrfanSkiljan.IrfanView
 winget install picpick.picpick
+winget install Docker.DockerDesktop
 
 # Swap cap/esc - only needed when not using Barrier from Linux
 winget install RandyRants.SharpKeys
@@ -44,6 +46,12 @@ winget install RandyRants.SharpKeys
 
 # Install Visual Studio from here:
 # https://visualstudio.microsoft.com/downloads/
+
+
+################################################################################
+# Windows Terminal
+################################################################################
+# Remove the ctrl-c/v bindings from settings so that visual block mode works in vim
 
 
 ################################################################################
